@@ -1,0 +1,98 @@
+#puzzle {
+	height: auto;
+	width: 450px;
+	background-color: white;
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 60px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #333333;
+}
+
+#puzzle div {
+	background-color: #c6daf2;
+	height: 50px;
+	width: 50px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 50px; 
+	font-size: 30px; 
+	color: green;
+	border-width: 2px;
+	border-color: #888888;
+}
+
+#puzzle div:hover {
+	background-color: #5882ef;
+}
+
+#buttons {
+	text-align: center;
+	display: inline-block;
+	width: 540px;
+	vertical-align: text-top;
+	margin: 30px;
+}
+
+.button {
+	width: 150px;
+	height: 60px;
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 50px;
+	border-width: 5px;
+	border-color: #000000;
+	background-color: #817af5;
+	/*padding: 10px;*/
+}
+
+.button:hover {
+	background-color: #453cf0;
+	color: #000000;
+	border-color: #ffffff;
+	cursor: pointer;
+}
+.button:active {
+	background-color: #180fc4;
+	color: #ffffff;
+	border-color: #000000;
+	transform: translateY(15px);
+	transition: 0.1s;
+}
+
+
+.bls {
+	border-left: black 2px solid;
+}
+
+.bbs {
+	border-bottom: black 2px solid;
+}
+
+.brs {
+	border-right: black 2px solid;
+}
+
+.bts {
+	border-top: black 2px solid;
+}
+
+
+.bld {
+	border-left: black 0.6px dashed;
+}
+
+.bbd {
+	border-bottom: black 0.6px dashed;
+}
+
+.brd {
+	border-right: black 0.6px dashed;
+}
+
+.btd {
+	border-top: black 0.6px dashed;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sudoku</title>
+	<link rel="shortcut icon" href="images/logo2.png"/>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script defer src="js/script.js"></script>
+	<script defer src="js/generate.js"></script>
+</head>
+
+<body>
+
+	<header style="text-align: center;">
+			<input type="image" src="images/logo1.png" class="headlogol"> <input type="image" src="images/name1.png" class="headpic"> <input type="image" src="images/logo1.png" class="headlogor" style="transform: scaleX(-1)";>
+	</header>
+
+	<div style="display: block; text-align: center;">
+		<p class="heading"> Sudoku </p>
+		<p class="name"> - by &emsp; Ashul &ensp; Gupta</p>
+	</div>
+
+	<div id="puzzle">
+
+		<div class="bls bts" id="0" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="1" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="2" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="3" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="4" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="5" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="6" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="7" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts brs" id="8" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="9" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="10" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="11" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="12" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="13" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="14" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="15" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="16" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd brs" id="17" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="18" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="19" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="20" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="21" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="22" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="23" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="24" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="25" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd brs" id="26" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="27" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="28" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="29" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="30" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="31" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="32" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="33" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="34" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts brs" id="35" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="36" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="37" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="38" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="39" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="40" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="41" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="42" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="43" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd brs" id="44" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="45" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="46" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="47" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="48" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="49" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="50" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="51" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="52" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd brs" id="53" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="54" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="55" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="56" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="57" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="58" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="59" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls bts" id="60" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts" id="61" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld bts brs" id="62" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="63" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="64" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="65" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="66" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="67" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="68" onclick="selectBlock(this.id)"></div>
+
+		<div class="bls btd" id="69" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd" id="70" onclick="selectBlock(this.id)"></div>
+
+		<div class="bld btd brs" id="71" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bls btd" id="72" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bld btd" id="73" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bld btd" id="74" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bls btd" id="75" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bld btd" id="76" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs btd bld" id="77" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bls btd" id="78" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bld btd" id="79" onclick="selectBlock(this.id)"></div>
+
+		<div class="bbs bld btd brs" id="80" onclick="selectBlock(this.id)"></div>
+
+	</div>
+
+	<div id="buttons">
+		<button type="button" class="button" id="generateNewSudokub" value="31" onclick="generateNewSudokuf(this.value)">Easy</button>
+		&emsp;
+		<button type="button" class="button" id="generateNewSudokub" value="41" onclick="generateNewSudokuf(this.value)">Medium</button>
+		<br><br>
+		<button type="button" class="button" id="generateNewSudokub" value="51" onclick="generateNewSudokuf(this.value)">Hard</button>
+		&emsp;
+		<button type="button" class="button" id="generateNewSudokub" value="64" onclick="generateNewSudokuf(this.value)">Insane</button>
+		<br><br>
+		<button type="button" class="button" id="generateNewSudokub" value="65" onclick="generateNewSudokuf(this.value)">Luck</button>
+		<br><br><br><br>
+		<button type="button" class="button" id="undo" onclick="undoMove()">Undo</button>
+		&emsp;
+		<button type="button" class="button" id="solve" onclick="solveSudoku()">Solve</button>
+	</div>
+
+</body>
+</html>
